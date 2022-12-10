@@ -23,17 +23,11 @@ const categories = fetch(`https://63731b72348e947299033009.mockapi.io/api/v1/cat
             item.classList.add('item');
             item.innerHTML = `
                 <div>
-                    <div class-"item-title">${element.title}</div>
-                    <div class-"item-image">
-                        <img src="${element.image}" alt="">
-                    </div>
-                    <div class="property">
-                        <div>Категория:</div>
-                        <div>${element.category}</div>
-                        <div>Рейтинг:</div>
-                        <div>${element.rating}</div>
-                    </div>   
-                    <div class="item price"><span id="price">${element.price}</span>$</div>
+                    <div class="item-title">${element.title}</div>
+                    <div class="item-image">
+                        <img src="${element.image}" alt="" width="400px">
+               
+                    <div class="item-price">price: <span id="price">${element.price}</span>$</div>
                 </div>
                 
             `;

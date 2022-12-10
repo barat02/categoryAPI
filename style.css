@@ -25,13 +25,31 @@
     font-size: 18px;
 }
 
-.products{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+
+
+.body{
+    background-color: aqua;
 }
 
-.item{
-    width: 400px;
-    margin-bottom: 15px;
+.products{
+    display: flex;
+    
+   
+    
+}
+
+
+.item-title{
+    background-color: white;
+    
+    color: black;
+    text-align: center;
+}
+
+
+
+.item-price{
+    background-color: white;
+    color: black;
+    text-align: center;
 }
