@@ -25,10 +25,14 @@ const categories = fetch(`https://63731b72348e947299033009.mockapi.io/api/v1/cat
                 <div>
                     <div class="item-title">${element.title}</div>
                     <div class="item-image">
-                        <img src="${element.image}" alt="" width="400px">
+                        <img src="${element.image}" alt="" width="300px">
                
                     <div class="item-price">price: <span id="price">${element.price}</span>$</div>
                 </div>
+                
+			
+
+                
                 
             `;
 
@@ -36,5 +40,6 @@ const categories = fetch(`https://63731b72348e947299033009.mockapi.io/api/v1/cat
     });
 
 });
+
 
 
