@@ -29,5 +29,3 @@ const categories = query('https://63731b72348e947299033009.mockapi.io/api/v1/cat
         div_categories.append(category);
     });
 });
-    
-    
